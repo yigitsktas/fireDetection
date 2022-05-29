@@ -4,3 +4,5 @@ comm = MPI.COMM_WORLD
 rank = comm.Get_rank()
 size = comm.Get_size()
 print(rank, size)
+
+print("hello")
